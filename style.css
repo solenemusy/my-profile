@@ -1,0 +1,77 @@
+/* Colors and fonts */ 
+
+
+body {
+	background-color:#F5EBEB;
+	color: #D5B4B4;
+	font-family: Merriweather, serif;
+	font-size: 16px;
+}
+
+h1 {
+	color: #E4D0D0;
+	font-family: Prata;
+	font-weight: 900;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+h2, h3{
+	color: #F5EBEB;
+	font-family:Papyrus ;
+	font-weight: 800;
+	letter-spacing: 10px;
+	
+}
+
+
+}
+a {
+	text-decoration: none;
+	color: #E4D0D0;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size:16px ;
+}
+
+a:hover{
+ color: #D5B4B4;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+div{
+	background: #867070;
+	border: #F5EBEB;
+	margin: 10px;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-rose{
+	width: 900px;
+	margin: 30px auto;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+@media(max-width: 700px){
+	.card-rose{
+		width: 600px;
+	}
+}
+
+@media(max-width: 600px){
+	.card-rose{
+		width: 500px;
+	}
+}
+
+#photodeprofil{
+	display: block;
+	width: 250px;
+	margin:0 auto;
+	border-radius:4px;
+	box-shadow:0 px 0px 15px rgba(10,10,10);
+}
